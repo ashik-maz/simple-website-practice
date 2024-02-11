@@ -1,0 +1,65 @@
+
+nav{
+    /* background-color: white;
+    color: black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+    
+}
+
+.button>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.button>ul>li{
+    margin-right: 30px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20px;
+    padding-left: 20px;
+}
+.heroim{
+    width: 500px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.container>h4{
+    font-weight:600;
+    font-size: 15px;;
+}
+.container>h1{
+    font-weight: 900;
+    font-size: 60px;
+    margin:20px 0px;
+}
+.container>p{
+    width: 100%;
+    font-weight: 600;
+}
+.buttons{
+    background-color: #0000ff;
+    height: 25px;
+    width: 120px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 10px;
+    font-weight: 500;
+}
+.container>div>a{
+    text-decoration: underline;
+    color: #0000ff;
+    font-weight: 500;
+}
+footer{
+    display: flex;
+    margin: 50px 20px;
+    padding-left: 20px;
+    flex-direction: row;
+}
